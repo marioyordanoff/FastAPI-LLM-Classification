@@ -42,9 +42,15 @@ To make the system even more robust you coud add anVector DB (Chroma,Pinecone et
    uvicorn app.main:app --reload
    ```
 
-2. Access the API documentation at `http://localhost:8000/docs`
+   or if you have fastapi-cli
 
-3. Use the provided endpoints for various language processing tasks.
+   ```
+   fastapi dev main.py
+   ```
+
+3. Access the API documentation at `http://localhost:8000/docs`
+
+4. Use the provided endpoints for various language processing tasks.
 
 ## API Documentation
 
