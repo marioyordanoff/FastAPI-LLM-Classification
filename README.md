@@ -1,5 +1,7 @@
 # FastAPI-LLM-Classification
-This is a FastAPI application that integrates with OpenAI's language models to provide various natural language processing capabilities.
+This is a FastAPI application that integrates with OpenAI's API & Instrcutor library for structured output. It's a good starting point and example for building any kind of Customer Support system where you need to classify incoming quieries into multiple categories. 
+
+To make the system even more robust you coud add anVector DB (Chroma,Pinecone etc.) with s whole RAG pipeline that embeds the whole business knwoledge and is then connected to the FastAPI. 
 
 ## Features
 
