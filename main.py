@@ -149,7 +149,7 @@ Analyze the following customer support ticket and provide the requested informat
 def classify_ticket(ticket_text: str) -> TicketClassification:
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             response_model=TicketClassification,
             temperature=0,
             max_retries=3,
